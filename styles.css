@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 /* header */
@@ -7,16 +8,48 @@ header {
   height: 10vh;
   background-color:firebrick;
   margin: 0;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+
+}
+
+h2 {
+}
+
+.nav-container {
+  display: flex;
+  margin-left: 25%;
+}
+
+.nav-container > p {
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 /* main */
 main {
   height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.welcome-screen {
+  height: 80%;
+  width: 80%;
+  background-color: grey;
+}
 
 /* footer */
 footer {
   height: 10vh;
   background-color: firebrick;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  /* margin-top: auto; */
 }
