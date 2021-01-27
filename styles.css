@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+/* header */
+header {
+  height: 10vh;
+  background-color:firebrick;
+  margin: 0;
+}
+
+/* main */
+main {
+  height: 80vh;
+}
+
+
+/* footer */
+footer {
+  height: 10vh;
+  background-color: firebrick;
+}
