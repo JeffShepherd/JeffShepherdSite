@@ -32,8 +32,6 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 
@@ -45,6 +43,7 @@ main {
   background-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .project-container {
@@ -57,10 +56,11 @@ main {
   min-width: 800px;
   min-height: 700px;
   background-color:snow;
+  color: black;;
 }
 
 /* footer */
 footer {
   height: 50px;
-  background-color:slategrey;
+  background-color:black;
 }
