@@ -13,19 +13,24 @@ header {
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content:flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(0,0,0,0.8);
 }
 
+h3 {
+  margin-left: 2%;
+  font-size: 2em;
+}
+
 .nav-container {
   display: flex;
-  margin-left: 25%;
 }
 
 .nav-container > p {
   padding-left: 7px;
   padding-right: 7px;
+  font-size: 1.25em;
 }
 
 /* main */
@@ -52,11 +57,20 @@ main {
   background-color:cadetblue;
 }
 
-.about-me-container {
+.me-container {
   min-width: 800px;
   min-height: 700px;
   background-color:snow;
-  color: black;;
+  color: black;
+  display: flex;
+}
+
+.about-me-section,
+.resume-section {
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 /* footer */
