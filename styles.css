@@ -50,13 +50,33 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-
+/* project area */
 .project-container {
   min-width: 800px;
   min-height: 700px;
   background-color:cadetblue;
+  display: flex;
+  flex-direction: column;
 }
 
+.project-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+ /* about me area */
 .me-container {
   min-width: 800px;
   min-height: 700px;
