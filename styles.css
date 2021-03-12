@@ -15,7 +15,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(0,0,0,0.8);
+  background-color: rgb(0, 0, 0, 0.8);
+  border-bottom: 1px solid grey;
 }
 
 h3 {
@@ -27,7 +28,7 @@ h3 {
   display: flex;
 }
 
-.nav-container > p {
+.nav-container>p {
   padding-left: 7px;
   padding-right: 7px;
   font-size: 1.25em;
@@ -50,11 +51,12 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
 /* project area */
 .project-container {
   min-width: 800px;
   min-height: 700px;
-  background-color:cadetblue;
+  background-color: cadetblue;
   display: flex;
   flex-direction: column;
 }
@@ -76,25 +78,25 @@ img {
 
 
 
- /* about me area */
+/* about me area */
 .me-container {
   min-width: 800px;
   min-height: 700px;
-  background-color:snow;
+  background-color: snow;
   color: black;
   display: flex;
 }
 
 .about-me-section,
 .resume-section {
-width: 50%;
-display: flex;
-flex-direction: column;
-justify-content: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* footer */
 footer {
   height: 50px;
-  background-color:black;
+  background-color: black;
 }
