@@ -84,11 +84,6 @@ main {
   text-align: center;
 }
 
-.ball {
-  position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
-}
 
 /* project area */
 .project-container {
