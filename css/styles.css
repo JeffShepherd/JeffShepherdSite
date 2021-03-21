@@ -26,6 +26,11 @@ header {
   width: 100%;
 }
 
+.face-image {
+  width: 20vh;
+  height: 20vh;
+}
+
 h3 {
   margin-left: 2%;
   font-size: 2em;
@@ -94,7 +99,8 @@ h3 {
 /* project area */
 .project-container {
   width: 100%;
-  background-color: #5f9ea0;
+  background-color: snow;
+  color: black;
   display: flex;
   flex-direction: column;
 }
@@ -118,8 +124,7 @@ img {
 /* about me area */
 .me-container {
   width: 100%;
-  background-color: snow;
-  color: black;
+  background-color: #5f9ea0;
   display: flex;
 }
 
