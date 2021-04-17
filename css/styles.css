@@ -96,6 +96,9 @@ h3 {
   font-size: 2rem;
 }
 
+.welcome-message > span {
+  font-size: 0.4em;
+}
 
 /* about me area */
 .me-container {
@@ -123,6 +126,15 @@ h3 {
   flex-direction: column;
 }
 
+.project-container > p {
+  margin: 2% auto;
+  font-size: 1.5em;
+}
+
+strong {
+  font-size: 1.2em;
+}
+
 .project-section {
   display: flex;
   flex-direction: column;
@@ -131,6 +143,31 @@ h3 {
 .project-row {
   display: flex;
   justify-content: space-around;
+  height: 100%;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.project-row > article {
+  width: 50%;
+  height: 100%;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.project-description {
+  text-align: left;
+}
+
+.project-ss {
+  width: 90%;
+  height: 100%;
+  margin: auto;
 }
 
 img {
