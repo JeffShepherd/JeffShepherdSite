@@ -16,9 +16,9 @@
     <header>
       <img class="rotate face-image" src="./assets/j1lightblue.svg" alt="cartoon face">
       <div class="nav-container">
-        <p id="projects" class="nav-choice hover-underline">Projects</p>
         <p id="about" class="nav-choice ">About Me</p>
-        <p id="contact" class="nav-choice ">Contact</p>
+        <p id="projects" class="nav-choice hover-underline">Projects</p>
+        <!-- <p id="contact" class="nav-choice ">Contact</p> -->
       </div>
 
     </header>
@@ -26,15 +26,15 @@
     <main>
 
       <section id="particles-js" class="welcome-container">
-        <p class="welcome-message">Jeff Shepherd &nbsp; | &nbsp; Software Developer</p>
+        <p class="welcome-message">Jeff Shepherd &nbsp; &nbsp; &nbsp; Software Developer <br> <span>Site (always) under construction. V2 built with React coming soon!</span></p>
       </section>
 
       <section class="me-container">
         <article class="about-me-section">
           <p>A little bit about me:</p>
-          <p>Former FinTech consultant, and project manager, with a proven history of success. Working with high-profile projects (FINISH ME) </p> <!-- who I am and what I am currently doing-->
-          <p>why I switched to code and what is turing</p> <!-- background, why I switched to code, what is turing -->
-          <p>about me 3</p> <!-- ? -->
+          <p class="description">Former FinTech Project Manager/Consultant VP turned Software Engineer. Proven history of developing solutions (technical and non-technical) leading to consecutive promotions and awards.</p> <!-- who I am and what I am currently doing-->
+          <!-- <p>why I switched to code and what is turing</p> background, why I switched to code, what is turing
+          <p>about me 3</p> ? -->
           <section>
             <a href="https://www.linkedin.com/in/jefflshepherd/" target="_blank"><img src="./assets/linkedin.svg" alt="linkedin logo"></a>
             <a href="https://github.com/JeffShepherd" target="_blank"><img src="./assets/github.svg" alt="github logo"></a>
@@ -42,44 +42,68 @@
           <!-- add LinkedIn link -->
         </article>
         <article class="resume-section">
-          <p>placeholder for resume</p><!-- resume here -->
+          <a href="./assets/ResumeV1.pdf"><img class="resume" src="./assets/ResumeSS.png"></a> 
+          <!-- resume here -->
         </article>
       </section>
 
       <section class="project-container">
-        <p>projects here</p>
+        <p>Highlighted Projects</p>
         <section class="project-section">
 
+          
+
+
           <section class="project-row">
             <article>
-              <img src="./assets/j1lightblue.svg" alt="project screenshot">
+              <img class="project-ss" src="./assets/WalliSS.png" alt="project screenshot">
             </article>
-            <article>
-              <p>project description</p>
-              <p>github link</p>
+            <article class="project-details">
+              <p class="project-description"><strong>Wall-i</strong> is the Turing School of Software and Design Module 3 final solo project. 
+                The challenge of this project: work within constraints to deliver a product for your niche audience, which helps solve a 
+                problem unique to them. </br></br><strong>Tech:</strong> React, React Router, JavaScript, HTML, and CSS to create the front-end. Cypress for testing.
+              </p>
+              <div>
+                <a href="https://github.com/JeffShepherd/Wall-i" target="_blank"><p>GitHub Repo</p></a>
+              </div>
             </article>
           </section>
 
           <section class="project-row">
             <article>
-              <p>project description</p>
-              <p>github link</p>
+              <img class="project-ss" src="./assets/WalliSS.png" alt="project screenshot">
             </article>
-            <article>
-              <img src="./assets/j1lightblue.svg" alt="project screenshot">
+            <article class="project-details">
+              <p class="project-description"><strong>Pear</strong> is a Turing School of Software and Design Module 3 project. In this project, we are tasked 
+                with creating an application of our choosing, using a new technology that we have never used before. We are given full autonomy otherwise, but 
+                must complete the minimum viable product (MVP) in 9 days. Given our interests in back-end technologies, our group decided to create a ReSTful 
+                API using Express, Knex, and postgreSQL. Pear is a full-stack application that allows developers to request, and conduct, code reviews.
+                </br></br><strong>Tech:</strong> Express, Knex, and PostgreSQL for the back-end. React, React Router, JavaScript, HTML, and CSS to create the 
+                front-end. Cypress for testing.
+              </p>
+              <div>
+                <a href="https://github.com/owenhallgren/stretch-project" target="_blank"><p>GitHub Repo</p></a>
+              </div>
             </article>
           </section>
 
           <section class="project-row">
             <article>
-              <img src="./assets/j1lightblue.svg" alt="project screenshot">
+              <img class="project-ss" src="./assets/RTss.png" alt="project screenshot">
             </article>
-            <article>
-              <p>project description</p>
-              <p>github link</p>
+            <article class="project-details">
+              <p class="project-description"><strong>Rancid Tomatillos</strong> is a Turing School of Software and Design paired project. The purpose of this 4-day project is to 
+                create a dynamic application that leverages an API to receive, and display, movie data. A user can search and filter a long 
+                list of movies, as well as view detailed information about a specific movie by clicking on it. </br></br><strong>Tech:</strong> React, React Router, JavaScript, HTML, 
+                and CSS to create the front-end. Cypress for testing.
+              </p>
+              <div>
+                <a href="https://rancid---tomatillos.herokuapp.com/" target="_blank"><p>Deployed Application (server may be slow to wake up)</p></a>
+                <a href="https://github.com/JeffShepherd/Rancid-Tomatillos" target="_blank"><p>GitHub Repo</p></a>
+              </div>
             </article>
           </section>
-          <!-- use grid here with project screenshot on one side and description on the other. alternate on subsequent grid rows -->
+
         </section>
       </section> 
 

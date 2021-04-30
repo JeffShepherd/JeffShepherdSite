@@ -96,6 +96,9 @@ h3 {
   font-size: 2rem;
 }
 
+.welcome-message > span {
+  font-size: 0.4em;
+}
 
 /* about me area */
 .me-container {
@@ -111,6 +114,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 /* project area */
@@ -123,6 +127,15 @@ h3 {
   flex-direction: column;
 }
 
+.project-container > p {
+  margin: 2% auto;
+  font-size: 1.5em;
+}
+
+strong {
+  font-size: 1.2em;
+}
+
 .project-section {
   display: flex;
   flex-direction: column;
@@ -131,6 +144,33 @@ h3 {
 .project-row {
   display: flex;
   justify-content: space-around;
+  height: 100%;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.project-row > article {
+  width: 50%;
+  margin-top: 2%;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.description {
+  width: 95%;
+}
+.project-description {
+  text-align: left;
+}
+
+.project-ss {
+  width: 90%;
+  height: 100%;
+  margin: auto;
 }
 
 img {
@@ -138,9 +178,20 @@ img {
   height: 5vw;
 }
 
+
+.resume {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+
 /* footer */
 footer {
   width: 100%;
   height: 50px;
   background-color: black;
+}
+footer > p {
+padding-top: 1%;
 }
